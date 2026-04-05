@@ -5,16 +5,24 @@ date_default_timezone_set('Asia/Shanghai');
 
 // 1. 配置区域
 $config = [
+    //
     [
         'x-sign' => '3voqtlxIxUA/itlqnA3BJ3Re5cAe3+HgomLecWH4P7laRtGDy2jYfupsY4Oj0nnSI+HTmhlQR7rgN+0tB83wxby+xT/C3EJiOzUOiOlZR/ZXls6Xat1CY1ZwhrNl6tREme+0Vw1iyI9IV8yNuxBJTDMyiPkWZHIvTIIfM0M8UVk=',
         'cookie' => '__tctmc=217272534.241284496; __tctmd=217272534.737325; __tctmu=217272534.0.0; __tctmz=217272534.1775260624434.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); longKey=1775260624167764; __tctrack=0; mw_fp=b8Z3p6sf80XXaZP8hjp55FKb7efCgWzi; __tctma=217272534.1775260624167764.1775260624434.1775260624434.1775347356082.2; __tctmb=217272534.1544873156810219.1775347356082.1775347356082.1',
         'data'   => ['cityCode' => '310100', 'activityNo' => '2925c', 'unionId' => '', 'traceId' => 'a20499d0-b845-47c1-a280-97fd522e0264', 'os' => 'android']
     ],
+    //0121 
     [
         'x-sign' => '1123VWR5D6OBCc1rYXJdHZpxli0rC2HEnvT6/SrEbhbo/3FTvXoTAwI5LdQJmkqPABgO4D+Rw5kn98aboHc+3Bt4q6ZDs8flPr/B6LHXaaN+gAolK59agtPL3IKmBBg7Um2bKAC3pamyZioeNIzUgTCK8f3YTAAovp+21s64oRA=',
         'cookie' => '__tctmd=217272534.737325; __tctmu=217272534.0.0; __tctmz=217272534.1774923350010.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); longKey=1774923350787108; __tctrack=0; mw_fp=aGJhywe08EkHTJcciPvQrc3BqpQJpett; __tctma=217272534.1774923350787108.1774923350010.1775174478018.1775177486310.17; __tctmc=217272534.19092906; __tctmb=217272534.1663797681773094.1775177486310.1775177577201.2',
         'data'   => ['cityCode' => '310100', 'activityNo' => '2925c', 'unionId' => 'ohmdTtyjUrIq_2Pm51yusTuCxoa8', 'traceId' => 'd3e7c5e8-a847-4a79-8a2a-5b8e79670185', 'os' => 'android']
-    ]
+    ],
+    //6697 
+    [
+        'x-sign' => 'MhrCN/RJFVfsNHRREPO19HsU+pFiMIEabLGSLTAPhtBesQ6mJBSLNWuZnn23LASeI+HTmhlQR7rgN+0tB83wxde/yTAUq/oHO/lCzRQKMjQeqEAOaPvXjnOdW/fioegbY9+sOLoJkotW2vJs6tdReTMyiPkWZHIvTIIfM0M8UVk=',
+        'cookie' => '__tctmc=217272534.241284496; __tctmd=217272534.737325; __tctma=217272534.1775348439995606.1775348439416.1775348439416.1775348439416.1; __tctmb=217272534.3076135827080486.1775348439416.1775348439416.1; __tctmu=217272534.0.0; __tctmz=217272534.1775348439416.1.1.utmccn=(direct)|utmcsr=(direct)|utmcmd=(none); longKey=1775348439995606; __tctrack=0; mw_fp=a4mLl6J6pcFQqISY44M6O57iSQSXcO24',
+        'data'   => ['cityCode' => '310100', 'activityNo' => '2925c', 'unionId' => '', 'traceId' => '5bccd516-15e4-4c4b-9648-09ec6a6f6f5f', 'os' => 'android']
+    ],
 ];
 
 // 2. 日志记录函数
